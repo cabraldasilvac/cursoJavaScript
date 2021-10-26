@@ -15,6 +15,12 @@
                 font-size: 25pt;
             }
             
+            h2 {
+                color: antiquewhite;
+                text-align: center;
+                font-size: 20pt;
+            }
+            
             section {
                 background: black;
                 color: white;
