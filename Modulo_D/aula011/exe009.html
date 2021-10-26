@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background: rgb(235, 233, 233);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        h1,
+        h2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(43, 8, 243);
+        }
+        
+        #res {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(43, 8, 243);
+            font-size: 18pt;
+        }
+        
+        #local {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(43, 8, 243);
+            font-size: 16pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sistema de idenficação de NACIONALIDADE</h1>
+    <br>
+    <h2>Informe de qual pais você é:</h2>
+
+    <input type="text" name="local" id="local">
+    <input type="button" value="Verificar" onClick="resultado()">
+    <!-- recebe o resultado da entrada-->
+    <div id="res">
+
+    </div>
+    <script>
+        function resultado() {
+
+            var texto = document.getElementById("local").value;
+            texto = texto.toUpperCase() //garantir a entrada em caixa alta
+
+            document.getElementById("res").innerHTML = "" //limpar no inicio 
+
+            if (texto == "BRASIL") {
+
+                document.getElementById("res").innerHTML = "Você é um cidadão Brasileiro."
+
+            }
+
+            if (texto != "BRASIL") {
+
+                document.getElementById("res").innerHTML = "Você é um cidadão estrangeiro."
+
+            }
+
+        }
+    </script>
+    <footer>
+        <p>© WMS66 &#9997; CursoEmVideo - Curso de Básico de JavaScript &#9997;</p>
+    </footer>
+</body>
+
+</html>
