@@ -1,5 +1,5 @@
 let amigo = {
-    nome: 'josé',
+    nome: 'José',
     sexo: 'M',
     peso: 85.4,
     engordar(p = 0) {
@@ -7,5 +7,5 @@ let amigo = {
         this.peso += p
     }
 }
-amigo.engordar(2)
+amigo.engordar(5)
 console.log(`${amigo.nome} pesa ${amigo.peso}kg`)
