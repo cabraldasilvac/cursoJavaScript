@@ -4,8 +4,6 @@
  Primeiro repositório do Curso de JavaScript - Curso em Video
 
 
-TREINANDO O GIT E O GITHUB.
-
 MODULOS DE A - F - com aulas e exercícios.
 
 A - Conhecendo o JavaScript
