@@ -1,7 +1,7 @@
 # cursoJavaScript
  
 ## 
- Primeiro repositório do Curso de JavaScript - Curso em Video
+ # Primeiro repositório do Curso de JavaScript - Curso em Video
 
 ##
 # MODULOS DE A - F - com aulas e exercícios.
