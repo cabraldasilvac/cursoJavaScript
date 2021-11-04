@@ -1,10 +1,10 @@
 # cursoJavaScript
  
- 
+## 
  Primeiro repositório do Curso de JavaScript - Curso em Video
 
-
-MODULOS DE A - F - com aulas e exercícios.
+##
+# MODULOS DE A - F - com aulas e exercícios.
 
 A - Conhecendo o JavaScript
       O que JS é capaz de fazer?
@@ -50,7 +50,7 @@ https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
 
 ---------------------------------------------------------
 
-Os próximos passos
+# Os próximos passos
 
 A	== Function	
 B	== Objetos	
